@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_KEY = 'VOTRE_CLE_API' // Remplacez par votre clé API
+const API_KEY = '8a39d8bee8bfdd286ea8bc0e8b6d267b'
 
 function App() {
   const [weather, setWeather] = useState(null)
@@ -12,7 +12,7 @@ function App() {
       const response = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&lang=fr&appid=${API_KEY}`
       )
-      
+    
       if (!response.ok) {
         throw new Error('Erreur lors de la récupération des données météo')
       }

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_KEY = '8a39d8bee8bfdd286ea8bc0e8b6d267b'
+const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'
 
 function App() {
   const [weather, setWeather] = useState(null)

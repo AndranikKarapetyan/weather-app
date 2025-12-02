@@ -39,7 +39,7 @@ docker-compose down
 
 ## 📁 Structure du projet
 
-```
+```text
 weather-app/
 ├── src/
 │   ├── App.jsx        # Composant principal
